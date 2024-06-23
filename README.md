@@ -1,5 +1,8 @@
 ## Description
-This tool reads extended attributes of multiple files consecutively and writes the results to an output file, this allows you to test classification of multiple files with automation.
+This tool reads extended attributes of multiple files consecutively and writes the results to an output file, this allows you to test the classification of multiple files with automation.
+
+## Prerequisites
+* Python version 3.0 or higher installed
 
 ## Usage
 Simply edit the variables defined in the beginning of the program to include the correct directories and desired paths. After ensuring these variables are defined correctly, you may just run the program as is.
