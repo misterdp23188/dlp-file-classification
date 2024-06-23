@@ -10,10 +10,21 @@ Simply edit the variables defined in the beginning of the program to include the
 ```
 python main.py
 ```
-### Sample Output
+### Sample Output File
 output.csv
 ```
-
+Filename, Policy Name, Rule Name, File Sensitive
+2020.xlsx,Employee Privacy - Devices (NEW),Employee Privacy RULE - Devices Only (NEW), TRUE
+2021.xlsx,Employee Privacy - Devices (NEW),Employee Privacy RULE - Devices Only (NEW), TRUE
+2022.xlsx,Employee Privacy - Devices (NEW),Employee Privacy RULE - Devices Only (NEW), TRUE
+22024-SoToxa.docx,DefaultPolicy,DefaultRule, FALSE
+ah2.pdf,DefaultPolicy,DefaultRule, FALSE
+AH2_NegativeComplete.xlsx,DefaultPolicy,DefaultRule, FALSE
+AH2_PositiveComplete.xlsx,AH2 - Patient Privacy (Devices),AH2-DevicesRULE-HIGH, TRUE
+Alberta Area Employee Roster.xlsx,Employee Privacy - Devices (NEW),Employee Privacy RULE - Devices Only (NEW), TRUE
+APR_Leavers0424.xlsx,Employee Privacy - Devices (NEW),Employee Privacy RULE - Devices Only (NEW), TRUE
+cat.jpg,UNSUPPORTED,UNSUPPORTED, UNSUPPORTED
+Company Health Profile.xlsx,DefaultPolicy,DefaultRule, FALSE
 ```
 
 ## Final Remarks
