@@ -4,9 +4,28 @@ collectedData = []
 failedFiles = []
 
 
-fileDirectory = 'C:/MDE/TestFiles/'
-exePath = 'C:/MDE/Tools/DisplayExtendedAttribute.exe'
-outputFilename = 'output.csv'
+#fileDirectory = 'C:/MDE/TestFiles/'
+#exePath = 'C:/MDE/Tools/DisplayExtendedAttribute.exe'
+#outputFilename = 'output.csv'
+
+# Remove the static definitions
+# fileDirectory = 'C:/MDE/TestFiles/'
+# exePath = 'C:/MDE/Tools/DisplayExtendedAttribute.exe'
+# outputFilename = 'output.csv'
+
+# Add user input prompts
+fileDirectory = input("File directory absolute path: ")
+exePath = input("Executable path: ")
+outputFilename = input("Output filename / path: ")
+
+# Provide default values if the user inputs are empty
+if not fileDirectory:
+    fileDirectory = 'C:/MDE/TestFiles/'
+if not exePath:
+    exePath = 'C:/MDE/Tools/DisplayExtendedAttribute.exe'
+if not outputFilename:
+    outputFilename = 'output.csv'
+
 
 """
 # ask user for filepaths / directories
